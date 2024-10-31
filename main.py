@@ -1,13 +1,13 @@
 
 
-def print_hi(name):
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+completed = 12
+hours = 1.5
+course_name = 'Python'
+time_per_task = (hours/completed)
+print (time_per_task)
+
+print ('Курс:',course_name + ', количество задач:', completed , ', затраченное время:',hours,  ", среднее время выполнения:" ,time_per_task ,"часа.")
 
 
-
-if __name__ == '__main__':
-    print_hi('Im student and its my homework!')
-
-(print ('Have a nice day :)'))
 
 
