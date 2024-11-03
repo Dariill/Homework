@@ -1,13 +1,12 @@
+my_string = input('Pets name: ')
+print (len(my_string) , 'буковок' ) # кол-во символов
 
 
-completed = 12
-hours = 1.5
-course_name = 'Python'
-time_per_task = (hours/completed)
-print (time_per_task)
+print (my_string.upper())
+print (my_string.lower())
 
-print ('Курс:',course_name + ', количество задач:', completed , ', затраченное время:',hours,  ", среднее время выполнения:" ,time_per_task ,"часа.")
+print (my_string .replace( " " , ""))
 
-
-
+print (my_string [0])
+print (my_string [-1])
 
