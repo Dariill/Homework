@@ -1,5 +1,3 @@
-from ipaddress import ip_address
-
 data_structure = [
 [1, 2, 3],
 {'a': 4, 'b': 5},
